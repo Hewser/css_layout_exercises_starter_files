@@ -1,1 +1,51 @@
+html > img {
+	background: no-repeat center center;
+	background-size: cover;
+}
+body {
+	padding:0px;
+	margin: 0px;
+}
 
+nav {
+	width: 100%;
+	height: 60px;
+	background-color: gray;
+	padding-left:60px;
+	padding-right: 60px;
+	position:fixed;
+}
+.inline {
+	
+}
+ul {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+li {
+	display: inline;
+}
+.green-box {
+	border: green 10px dotted;
+	position: relative;
+	width: 600px;
+	height:300px;
+	margin: auto;
+	top: 300px;
+
+}
+div img {
+	max-width: 200px;
+	max-height: 200px;
+	position: absolute;
+}
+.cat {
+	right: 500px;
+	bottom: 200px;
+
+}
+.dog {
+	left: 500px;
+	top: 200px;
+}
